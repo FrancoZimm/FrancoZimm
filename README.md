@@ -37,10 +37,15 @@ Maqueta IoT con ESP32: las farolas se encienden al paso de la gente y de noche, 
 PWA instalable en Android que hace OCR en el propio móvil (Tesseract.js), saca total, IVA y productos, y te dice en qué comercio y categoría se te va el dinero.
 `JavaScript` `PWA` `Tesseract.js`
 
-**Coche autónomo** — *esquiva obstáculos sin que nadie lo toque.*
+**[Coche RC con ESP32](https://github.com/FrancoZimm/esp32-rc-car)** — *se maneja desde el móvil y frena solo antes de chocar.*
 
-Prototipo con ESP32 y sensores ultrasónicos; la lógica de movimiento está programada en Arduino IDE.
-`ESP32` `Arduino` `C++`
+Dos motores con L298N, control por Bluetooth desde una app de MIT App Inventor o un mando externo, y un HC-SR04 que baja la velocidad y bloquea el avance si hay algo delante.
+`ESP32` `Arduino` `C++` `Bluetooth` `App Inventor`
+
+**[Order Manager](https://github.com/FrancoZimm/order-manager-java)** — *gestión de pedidos de escritorio, en euros o dólares.*
+
+App Java Swing con arquitectura MVC: CRUD de pedidos con persistencia JSON, tipo de cambio en tiempo real, pruebas con JUnit 5 y CI con GitHub Actions.
+`Java` `Swing` `Maven` `JUnit 5` `GitHub Actions`
 
 ---
 
