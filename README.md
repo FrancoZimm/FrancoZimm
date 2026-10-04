@@ -55,7 +55,7 @@ App Java Swing con arquitectura MVC: CRUD de pedidos con persistencia JSON, tipo
   <img src="https://skillicons.dev/icons?i=java,python,cpp,js,html,css,react,fastapi,mysql,mongodb,arduino,git,github,idea,vscode,matlab&perline=8" alt="stack" />
 </p>
 
-| | |
+| Área | Tecnologías |
 |---|---|
 | **Lenguajes** | Java · Python · C++ · JavaScript |
 | **IA** | LLMs · RAG · embeddings · Ollama |
