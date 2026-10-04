@@ -74,6 +74,12 @@ Prototipo con ESP32 y sensores ultrasónicos; la lógica de movimiento está pro
 
 ---
 
+### `> cómo trabajo`
+
+Uso asistentes de IA como copiloto: para generar boilerplate, revisar código y documentar. Las ideas, la arquitectura, las pruebas y que todo funcione de punta a punta son cosa mía. Cada repo indica dónde me apoyé en ellos.
+
+---
+
 ### `> contacto`
 
 [LinkedIn](https://www.linkedin.com/in/franco-zimmermann-468116355) · [zmmr.fran@gmail.com](mailto:zmmr.fran@gmail.com) · Madrid, España
