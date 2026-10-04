@@ -27,10 +27,10 @@ RAG 100 % local que cita la fuente de cada respuesta y detecta cuándo le estás
 Le pasas PDFs, fotos o un audio; los convierte a texto (OCR / Whisper), los indexa y responde con evidencia. Si no encuentra nada en tus documentos, busca en la web en lugar de inventárselo.
 `Python` `Streamlit` `Ollama` `EasyOCR` `faster-whisper`
 
-**AureaTech** — *un barrio en miniatura que se vigila solo.*
+**[AureaTech](https://github.com/FrancoZimm/aureatech-smart-zone)** — *un barrio en miniatura que se vigila solo.*
 
-Maqueta de zona residencial con ESP32 y sensores de temperatura, humedad, distancia, luz y gas. Los datos viajan por WiFi a una app en Python y se guardan en MariaDB. Proyecto en equipo de 4.
-`ESP32` `Python` `Flet` `MariaDB` `PlantUML`
+Maqueta IoT con ESP32: las farolas se encienden al paso de la gente y de noche, y una ESP32-CAM controla el acceso de vehículos. Me encargué del reconocimiento de matrículas con un modelo YOLO entrenado para ello. Proyecto en equipo de 4.
+`ESP32` `ESP32-CAM` `YOLO` `Python` `Flet` `MariaDB`
 
 **Tiquetario** — *tus gastos, desde la foto del ticket.*
 
