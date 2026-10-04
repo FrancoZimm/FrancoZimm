@@ -1,12 +1,12 @@
 ```text
 [boot] franco.zimmermann v2026.10
-[ ok ] ubicación ........... Madrid, ES
-[ ok ] carrera ............. Ingeniería Informática · Universidad Europea de Madrid
-[ ok ] idiomas ............. es (nativo) · en (B2)
-[ ok ] modelos cargados .... llama3.2 · qwen2.5 · nomic-embed-text   (todo en local)
-[ ok ] sensores ............ DHT22 · HC-SR04 · LDR · MQ-2
-[warn] próximo objetivo .... IA aplicada + ciberseguridad
-> listo. escribe "proyectos" para continuar_
+[ ok ] base ......... Madrid, ES
+[ ok ] carrera ...... Ing. Informática · UEM
+[ ok ] idiomas ...... es (nativo) · en (B2)
+[ ok ] modelos ...... llama3.2 · qwen2.5 · nomic-embed
+[ ok ] sensores ..... DHT22 · HC-SR04 · LDR · MQ-2
+[warn] objetivo ..... IA aplicada + ciberseguridad
+> listo. escribe "proyectos"_
 ```
 
 Me gusta que las cosas **funcionen fuera de la diapositiva**: un LLM que responda con fuentes sin mandar tus datos a ningún servidor, una maqueta que mida gas y temperatura de verdad, una app que lea un ticket arrugado.
@@ -18,22 +18,27 @@ En abril de 2026 crucé a Suiza con la UEM para el **XVIII IT Seminar** (HES-SO 
 ### `> proyectos`
 
 **[Zynthra-AI](https://github.com/FrancoZimm/Zynthra-AI)** — *un ChatGPT para estudiar que no te hace los deberes.*
+
 RAG 100 % local que cita la fuente de cada respuesta y detecta cuándo le estás pidiendo que copie: ahí cambia a tutor socrático y te hace preguntas en vez de darte el ensayo.
 `Python` `FastAPI` `React` `Ollama` `MongoDB`
 
 **[RENATA (REN)](https://github.com/FrancoZimm/Proyect_RAG_Rena)** — *el asistente que llevamos a Suiza.*
+
 Le pasas PDFs, fotos o un audio; los convierte a texto (OCR / Whisper), los indexa y responde con evidencia. Si no encuentra nada en tus documentos, busca en la web en lugar de inventárselo.
 `Python` `Streamlit` `Ollama` `EasyOCR` `faster-whisper`
 
 **AureaTech** — *un barrio en miniatura que se vigila solo.*
+
 Maqueta de zona residencial con ESP32 y sensores de temperatura, humedad, distancia, luz y gas. Los datos viajan por WiFi a una app en Python y se guardan en MariaDB. Proyecto en equipo de 4.
 `ESP32` `Python` `Flet` `MariaDB` `PlantUML`
 
 **Tiquetario** — *tus gastos, desde la foto del ticket.*
+
 PWA instalable en Android que hace OCR en el propio móvil (Tesseract.js), saca total, IVA y productos, y te dice en qué comercio y categoría se te va el dinero.
 `JavaScript` `PWA` `Tesseract.js`
 
 **Coche autónomo** — *esquiva obstáculos sin que nadie lo toque.*
+
 Prototipo con ESP32 y sensores ultrasónicos; la lógica de movimiento está programada en Arduino IDE.
 `ESP32` `Arduino` `C++`
 
@@ -60,11 +65,11 @@ Prototipo con ESP32 y sensores ultrasónicos; la lógica de movimiento está pro
 ### `> certificaciones`
 
 ```text
-2025  Inteligencia Artificial · nivel intermedio ........ Universidad Europea de Madrid
-2025  Introducción al Internet de las Cosas ............ Cisco Networking Academy
-      Introducción a IBM Z ............................. IBM
-2024  MATLAB Onramp + Matemáticas simbólicas ........... MathWorks
-2023  Inglés B2 ........................................ CUI, Argentina
+2025  Inteligencia Artificial (intermedio) ... UEM
+2025  Introducción al IoT .................... Cisco
+      Introducción a IBM Z ................... IBM
+2024  MATLAB Onramp + Mat. simbólicas ........ MathWorks
+2023  Inglés B2 .............................. CUI, Argentina
 ```
 
 ---
