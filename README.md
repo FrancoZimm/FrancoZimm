@@ -39,8 +39,8 @@ PWA instalable en Android que hace OCR en el propio móvil (Tesseract.js), saca 
 
 **[Coche RC con ESP32](https://github.com/FrancoZimm/esp32-rc-car)** — *se maneja desde el móvil y frena solo antes de chocar.*
 
-Dos motores con L298N, control por Bluetooth desde una app de MIT App Inventor o un mando externo, y un HC-SR04 que baja la velocidad y bloquea el avance si hay algo delante.
-`ESP32` `Arduino` `C++` `Bluetooth` `App Inventor`
+Dos motores con L298N, control por Bluetooth desde una app de MIT App Inventor o un mando externo, un mando con M5Stack por WiFi + MQTT, y un HC-SR04 que baja la velocidad y bloquea el avance si hay algo delante. Proyecto en equipo de 3.
+`ESP32` `M5Stack` `MQTT` `Bluetooth` `App Inventor` `C++`
 
 **[Order Manager](https://github.com/FrancoZimm/order-manager-java)** — *gestión de pedidos de escritorio, en euros o dólares.*
 
